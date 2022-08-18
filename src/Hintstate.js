@@ -13,5 +13,14 @@ class Hint extends React.Component{
           fhint: "For greeting"
         })
       }  
-  
+      
+      render(){
+        return (
+          <div>
+            <p>{this.state.fhint}</p>
+            <button
+              type="button" onClick={this.changeHint} >Click me babe</button>
+          </div>
+        );
+      }
   }
