@@ -7,7 +7,11 @@ class Hint extends React.Component{
           fhint: "Click here if you Noopppp"
         }
       }
-    
-      
+  
+      changeHint = () => {
+        this.setState({
+          fhint: "For greeting"
+        })
+      }  
   
   }
